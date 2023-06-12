@@ -68,6 +68,7 @@ function Forcast(props) {
             <img
               src="https://images.avishkaar.cc/workflow/newhp/search-white.png"
               onClick={search}
+              alt="Background"
             />
           </div>
         </div>
@@ -82,6 +83,7 @@ function Forcast(props) {
                 <img
                   className="temp"
                   src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
+                  alt="Background"
                 />
               </li>
               <li>
